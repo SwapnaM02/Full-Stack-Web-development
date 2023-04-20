@@ -1,0 +1,435 @@
+*{
+    margin:0px;
+    padding: 0px;
+
+}
+body
+{
+    font-family: 'Roboto', sans-serif;
+}
+body::-webkit-scrollbar {
+    display: none;
+  }
+
+
+
+.dimension{
+    clip-path: polygon(0 0, 100% 0, 100% 67%, 0% 100%);
+    height:800px;
+    background: linear-gradient(#fcfeff, #b5d0eb);
+    padding: 30px 150px;
+    
+    
+    
+}
+
+
+
+nav{
+    display:flex;
+  gap:500px;
+}
+
+.menu-list{
+    display: flex;
+    gap:160px;
+  
+}
+.menu-list ul{
+    display: flex;
+   gap:40px;
+}
+
+.menu-list ul li{
+    list-style-type: none;
+}
+.menu-list ul li a{
+    text-decoration: none;
+    color:#000000;
+}
+
+
+
+
+
+
+
+.menu-list>ul+div>button{
+    background-color: transparent;
+    padding: 10px 20px;
+    color:#7a3bd3;
+    border: 1px solid #7a3bd3;
+    border-radius: 50px;
+    margin-top: -10px;
+}
+
+.content{
+    margin-top: 200px;
+    display: flex;
+}
+.left-con{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+
+.left-con div h6{
+    background-color: #f7f1ff;
+    color:#8346d6;
+    width:180px;
+    padding: 5px;
+    border-radius: 50px;
+}
+
+.left-con div h6 img
+{
+    margin-right: 2px;
+}
+
+.left-con div h6  span
+{
+    color:#722ed1;
+    text-decoration: underline;
+    font-weight: 600;
+    font-size: 14px;
+   
+}
+.left-con h1{
+    font-size: 50px;
+    font-weight: 600;
+    padding-right: 320px;
+}
+
+.left-con p{
+    color:#4d4d4d;
+    padding-right: 250px;
+    font-size: 18px;
+}
+.btns{
+    display: flex;
+    gap:15px;
+}
+
+.btns>div>button{
+    padding:10px 15px;
+    
+    border-radius: 50px;
+    border:none;
+    
+    
+}
+
+.first-btn {
+    background-color: #722ed1;
+    color:#fff;
+    border:none;
+}
+
+.second-btn{
+    color: #722ed1;
+    background-color: #fff;
+    border:none;
+}
+.right-cont{
+    
+    margin-top: -35px;
+    
+   
+}  
+.data
+{
+    padding: 30px 150px;
+}
+
+.data-des{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+
+.data-des h5{
+    
+    background-color: #f7f0ff;
+    width: 150px;
+    text-align: center;
+    margin-left: 500px;
+    padding: 11px;
+    border-radius: 50px;
+    color: #722ed1;
+}
+
+.data-des h5 img{
+    margin-right: 10px;
+}
+
+.data-des h2{
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+.data-des p{
+    text-align: center;
+    margin-left: 300px;
+    font-size: 16px;
+    padding-right: 300px;
+    line-height: 20px;
+    color:#4d4d4d;
+}
+
+.data-card{
+    display: flex;
+    text-align: center;
+    margin-top: 50px;
+    gap:20px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+
+.card p{
+    color:#4d4d4d;
+    font-size:20px;
+    padding-right: 50px;
+}
+.launch{
+    margin-top: 150px;
+    display: flex;
+    
+   gap:200px;
+} 
+.right-launch{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+} 
+.right-launch h5{
+    background-color: #f9f0ff;
+    width: max-content;
+    padding: 10px;
+    border-radius: 50px;
+    color: #722ed1;
+}
+
+.right-launch h5 img{
+    margin-right: 10px;
+}
+
+.right-launch p{
+    padding-right: 185px;
+    color: #4d4d4d;
+    line-height: 25px;
+}
+.zapier{
+    margin-top: 150px;
+    display: flex;
+}
+
+.left-zapier{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+}
+.left-zapier h5{
+    background-color: #f9f0ff;
+    color:#722ed1;
+    width: max-content;
+    padding: 10px;
+    border-radius: 50px;
+}
+.left-zapier h5 img{
+    margin-right: 10px;
+}
+.left-zapier p{
+    padding-right: 385px;
+    color:#4d4d4d;
+    line-height:25px;
+}
+
+.shape{
+    
+    background-color: red;
+    height:100vh;
+    margin-left:-150px;
+    margin-right:-150px;
+    padding: 250px 150px;
+    clip-path: polygon(0 19%, 100% 5%, 100% 45%, 0 65%);
+    background-color: #f9f8ff;
+   
+}
+.col-shape{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+    gap:30px;
+}
+
+.col-shape img{
+    width:100px;
+    
+}
+
+.headings{
+    
+    margin-left: 50px;
+}
+.head-one{
+    
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.col-shape h1{
+    padding: 0px 50px;
+    text-align: center;
+}
+
+.logo-flex{
+    display: flex;
+    gap:100px;
+}
+
+hr{
+    color:red;
+    width:1200px;
+}
+.company{
+    margin-top: -300px;
+    display: flex;
+    gap:30px;
+    
+    
+}
+.left-company{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+
+.left-company h1{
+    padding-right: 0px; 
+    font-size: 35px;
+   
+}
+.horizontal{
+    display: flex;
+}
+.horizontal hr
+{
+    width:150px;
+    
+    margin-right:10px;
+   
+    
+    
+}
+.horizontal p{
+    
+    position: relative;
+    top:-5px;
+}
+.second-hr{
+    margin-left: 15px;
+    position: relative;
+}
+
+.sign hr{
+    width:600px;
+}
+
+.left-logo{
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap:60px;
+}
+.right-comapny{
+    background-color: #f9f0ff;
+    width:1500px;
+    height: 520px;
+    
+    
+
+    
+}
+
+.white-bgc{
+    background-color: #fff;
+    margin: 0px 20px;
+    text-align: center;
+    padding:10px 30px;
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    height:475px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.form h4{
+    background-color: #722ed1;
+    color:#fff;
+    padding:10px;
+}
+input{
+    padding: 10px;
+}
+.sign{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+footer{
+    padding:100px 0px;
+    display: flex;
+    gap:30px;
+  
+}
+
+.footer-logo{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    width: 400px;
+   
+}
+
+.footer-logo p{
+   
+}
+.social-media{
+    display: flex;
+    gap:10px;
+}
+.list{
+    display: flex;
+    gap:40px;
+   
+   
+}
+.footer-list{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+ .email{
+    display: flex;
+   
+}
+.emailbgc{
+    background-color: rgb(227, 233, 227);
+    border: none;
+}
+
+.email img{
+    position: relative;
+    right:20px;
+}

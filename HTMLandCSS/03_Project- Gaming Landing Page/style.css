@@ -1,0 +1,688 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+  }
+
+.screen1{
+    height:100vh;
+    background-image: url(./Project3-GamingLandingPage/Assets/Photos/futuristic-bg.png);
+    background-size: cover;
+    background-position: center;
+    padding: 50px 100px;
+}
+
+.screen1 nav{
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+.screen1 nav div:nth-child(1){
+    width:100px;
+}
+
+.screen1 nav div img{
+    width:100px;
+}
+
+.screen1 nav div:nth-child(2){
+    
+    margin-left: -270px;
+}
+
+.screen1 nav div ul{
+    display: flex;
+    gap:30px;
+    
+    
+    list-style: none;
+}
+
+.screen1 nav div ul li
+{
+    list-style: none;
+}
+
+.screen1 nav div ul li a{
+    color:#ffffff;
+    text-decoration: none;
+    font-size:16px;
+}
+.nav-buttons
+{
+    
+    display: flex;
+}
+
+.nav-buttons :nth-child(1)
+{
+    background-color: transparent;
+    color:#ffffff;
+    padding-left:30px;
+   padding-right:30px;
+   padding-top:10px;
+   padding-bottom: 10px;
+   font-size:16px;
+}
+
+.nav-buttons :nth-child(2)
+{
+    background-color: #f4694c;
+    color:#ffffff;
+   padding-left:30px;
+   padding-right:30px;
+   padding-top:10px;
+   padding-bottom: 10px;
+   font-size:16px;
+}
+
+main
+{
+    display:flex;
+    color:#ffff;
+     padding:250px 0px; 
+     gap:50px;
+}
+
+.leftmain{
+    width:530px;
+   
+    display: flex;
+    flex-direction: column;
+    gap:27px;
+   
+}
+
+.leftmain h1{
+    font-size: 50px;
+    line-height: 80px;
+   
+}
+
+.leftmain p{
+    color:#746f6f;
+    padding-right:100px;
+}
+
+.button{
+    display:flex;
+    gap:20px;
+}
+
+button
+{
+    background-color: #f4694c;
+    color:#ffffff;
+   padding-left:30px;
+   padding-right:30px;
+   padding-top:10px;
+   padding-bottom: 10px;
+   font-size:16px;
+
+}
+
+.btn{
+    background-color: transparent;
+    border:1px solid #fff;
+}
+
+.rightmain{
+    
+}
+.innerright{
+    margin-top: 80px;
+    display:flex;
+    flex-direction: column;
+    gap:130px;
+    margin-left: 80px;
+} 
+
+.innerright-img
+{
+   
+    position:relative;
+    left:300px;
+}
+
+.inheading{
+    display: flex;
+    gap:20px;
+    position: relative;
+    left:180px;
+    top:50px;
+}
+
+.inheading h2{
+  width:230px;
+  position: relative;
+  top:30px;
+  line-height: 30px;
+
+}
+
+
+
+.inhead-img{
+  position:relative;
+  top:70px;
+}
+
+section{
+    height: 100vh;
+    padding: 150px 100px;
+    
+}
+
+section>h1{
+  
+    text-align: center;
+    font-size: 55px;
+    padding: 0px 200px;
+    margin-bottom: 100px;
+}
+.action{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.movies{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap:30px;
+    
+}
+
+.movie1{
+    width:auto;
+    
+   
+    height:350px;
+}
+.background-img1{
+    background-image: url(./Project3-GamingLandingPage/Assets/Photos/image2.png);
+    height:350px;
+    background-size: cover;
+    background-position: right 5% center;
+    
+}
+
+.movie-content1{
+    backdrop-filter: blur(12px);
+    position:relative;
+    bottom: 110px;
+    height:70px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color:#fff;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding-bottom: 20px;
+   
+}
+
+.action>p{
+    color:#abacac;
+}
+.action >p+button{
+    border:none;
+    
+}
+
+.stars{
+    position: relative;
+    bottom: 20px;
+}
+
+
+
+
+.movie2{
+    width:auto;
+    
+    height:350px;
+    background-color: red;
+}
+.background-img2{
+    background-image: url('./Project3-GamingLandingPage/Assets/Photos/image4.png');
+    height:350px;
+    background-size: cover;
+     background-position:  center; 
+     /* background:red; */
+    
+}
+.movie-content2{
+    backdrop-filter: blur(12px); 
+    position:relative;
+    bottom: 110px;
+    height:70px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color:#fff;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding-bottom: 20px;
+    /* background-color: yellow; */
+    
+   
+}
+
+
+
+.movie3{
+    width:auto;
+    height:350px;
+}
+.background-img3{
+    background-image: url('./Project3-GamingLandingPage/Assets/Photos/image3.png');
+    height:350px;
+    background-size: cover;
+     background-position: center center; 
+    
+}
+.movie-content3{
+     backdrop-filter: blur(12px); 
+    position:relative;
+    bottom: 110px;
+    height:70px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color:#fff;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding-bottom: 20px;
+   
+}
+
+
+
+.movie4{
+    width:auto;
+    
+    height:350px;
+}
+.background-img4{
+    background-image: url('./Project3-GamingLandingPage/Assets/Photos/Rectangle56.png');
+    height:350px;
+    background-size: cover;
+     background-position: center center; 
+    
+}
+
+.movie-content4{
+    backdrop-filter: blur(12px);
+    position:relative;
+    bottom: 110px;
+    height:70px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color:#fff;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding-bottom: 20px;
+   
+}
+
+.card-con{
+    margin-top: 50px;
+    display: flex;
+    gap:70px;
+    
+   
+}
+
+.leftcard{
+    width:600px;
+    height:300px;
+    background-image: url('./Project3-GamingLandingPage/Assets/Photos/Rectangle57.png');
+    background-size:cover;
+    background-position: center;
+    
+}
+
+.rightcontent{
+   
+    
+}
+
+.rightcontent>h1{
+    
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 20px;
+    
+}
+
+.rightcontent>p{
+    color:#a7a7a7;
+    line-height:25px ;
+    margin-bottom: 20px;
+   
+}
+
+
+
+.screen2-btn{
+    display: flex;
+    gap:30px;
+}
+
+.screen2-btn>button
+{
+    border:none;
+}
+
+.screen2-btn button+button
+{
+    border:1px solid #f4694c;
+    background-color: transparent;
+    color:#f4694c;
+}
+
+
+
+.screen3{
+    height:100vh;
+  padding:30px 100px;
+}
+.head-btn{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.screen3 h1{
+    line-height: 60px;
+    font-size: 50px;
+}
+
+.btn-head{
+    display:flex;
+    gap:15px;
+}
+
+.screen3-btn1{
+    background-color: #fde1db;
+    height:20px;
+    padding:10px;
+}
+
+.screen3-btn2{
+    background-color: #f4694c;
+    height:20px;
+    padding:10px;
+}
+
+.screen3-btn2>img{
+    width:30px;
+    
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 750px 750px;
+    
+}
+.grid-card{
+    display: flex;
+    margin-top: 50px;
+}
+
+.grid-left1{
+    background-image: url(./Project3-GamingLandingPage/Assets/Photos/Rectangle75.png);
+    background-size: cover;
+    background-position: center;
+    width:300px;
+    height:310px;
+}
+
+.grid-right{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+
+.grid-right h1{
+    font-size:25px;
+    line-height: 35px;
+    
+    
+}
+
+.grid-right .org-para{
+    color:#f4694c;
+
+}
+.grid-right .org-para+p{
+    color:#746f6f;
+    font-size:15px;
+    line-height: 27px;
+}
+
+.grid-btn{
+   
+   border:none;
+   padding: 12px 25px;
+   position: relative;
+   top:30px;
+}
+
+.grid-left2{
+    background-image: url(./Project3-GamingLandingPage/Assets/Photos/Rectangle76.png);
+    background-size: cover;
+    background-position: center;
+    width:300px;
+    height:310px;
+}
+.grid-left3{
+    background-image: url(./Project3-GamingLandingPage/Assets/Photos/Rectangle77.png);
+    background-size: cover;
+    background-position: center;
+    width:300px;
+    height:310px;
+}
+
+.grid-left4{
+    background-image: url(./Project3-GamingLandingPage/Assets/Photos/Rectangle78.png);
+    background-size: cover;
+    background-position: center;
+    width:300px;
+    height:310px;
+}
+
+.screen4{
+    height:100vh;
+    background-color: #000308;
+    padding:50px 100px;
+    position: relative;
+}
+
+.screen4 h1{
+    color:#fff;
+    line-height:60px;
+    font-size:40px;
+    text-align: center;
+    
+}
+
+.img-con{
+    display:flex;
+    margin-top: 50px;
+}
+
+
+
+
+.img-con div>img{
+    
+    width:400px;
+}
+
+.screen4-bgc{
+    position: relative;
+    top:150px;
+   
+}
+
+.screen4-bgc img{
+    
+    
+}
+.screen4-paras{
+    position: absolute;
+    top:300px;
+    left:650px;
+   
+    
+}
+    
+.screen4-para{
+    color:#746f6f;
+    line-height: 25px;
+   
+}
+
+.twoimg{
+    display:flex;
+    gap:20px;
+
+}
+
+.oneimg{
+    width:300px;
+    position:absolute;
+    bottom: 100px;
+    left:580px;
+
+}
+
+.oneimg>img{
+    width:300px;
+}
+
+.secondimg{
+    width:300px;
+    position: absolute; 
+    bottom:90px;
+    right:300px;
+}
+
+.secondimg>img{
+    width:300px;
+}
+
+
+.screen5{
+    height:100vh;
+    background-color: #000309;
+    padding: 30px 100px;
+    color:#fff;
+}
+
+.screen5-section{
+    background-image: url('./Project3-GamingLandingPage/Assets/Photos/Rectangle606.png');
+    background-size:cover;
+    background-position: center;
+    height:500px;
+    padding-top: 150px;
+    display:flex;
+    flex-direction: column;
+    gap:40px;
+}
+
+.screen5-section>h1
+{
+text-align: center;
+font-size:58px;
+margin-left: -70px;
+
+}
+
+.screen5-section>p{
+    text-align: center;
+    margin-left: 50px;
+    color: #a7a7a7;
+    line-height: 25px;
+}
+.screen5-section>div
+{
+    text-align:center;
+} 
+
+.screen5-section>div>button{
+    border:none;
+    
+}
+
+.footer{
+    display: flex;
+    gap:70px;
+    padding-top: 70px;
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+
+.logo>div{
+    width:100px;
+    
+}
+
+.logo div img{
+    width:100px;
+}
+
+.logo>p{
+    color:#68696e;
+    line-height: 27px;
+}
+
+.footer-logos{
+    display: flex;
+    gap:15px;
+}
+
+
+
+.article{
+    display:flex;
+    gap:190px;
+}
+
+.art-list{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.greytext{
+    color:#746f6f;
+}
+    
+
+
+
+
+
+
+
+    

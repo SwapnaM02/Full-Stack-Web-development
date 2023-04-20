@@ -1,0 +1,108 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+
+}
+body{
+    max-width: 1440px;
+    /* at any cost the size of webpage not go more than 1440px irespective of screen */
+    background-color: #F0f4f5;
+    margin:auto;
+    overflow: hidden;
+
+}
+nav{
+    height:15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+    font-weight: 600;
+}
+nav ul li:first-child{
+    color:green;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85vh; 
+}
+main section{
+    width:50%;
+
+}
+.leftsection{
+    margin-left: 5%;
+    position:relative;
+    
+}
+.topangle{
+    width:25px;
+}
+.leftsection h1{
+    font-size:75px;
+}
+.leftsection p{
+    font-size:18px;
+    color:#808080;
+    margin: 20px 0px;
+
+}
+.bottomangle{
+    width:25px;
+    position:absolute;
+    right:25px;
+}
+ .stethoscope{
+    position: absolute;
+    width:90%;
+    top:-60px;
+    right:-25px;
+    z-index:-1;
+} 
+.mouse{
+    position:absolute;
+    right:-30px;
+    bottom: 0px;
+    width:30px;
+
+}
+.leftsection button{
+    color:#F0f4f5;
+    background-color: green;
+    padding: 15px 40px;
+    border:none;
+    border-radius: 50px;
+    font-size: 25px;
+}
+
+.greenbox ,.yellowbox{
+    position:absolute;
+    right:0;
+}
+
+.doctor{
+    position:absolute;
+    right:0px;
+    bottom: 0px;
+    height:90%;
+}
+.greenbox{
+    width:37%;
+    bottom:30px;
+}
+.yellowbox{
+    width:32%;
+    bottom: 50px;
+}
